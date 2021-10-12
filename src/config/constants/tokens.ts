@@ -1654,6 +1654,16 @@ export const testnetTokens = {
     'CAKE',
     'PancakeSwap Token',
     'https://pancakeswap.finance/',
+  
+  ),
+  gol: new Token(
+    TESTNET,
+    '0xBC16DF9309D7997bD5EeD62169BFd4d34666F196',
+    18,
+    'GOL',
+    'GOLSwap Token',
+    'https://gol.finance/',
+  
   ),
   busd: new Token(
     TESTNET,
