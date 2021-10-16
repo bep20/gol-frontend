@@ -1,18 +1,18 @@
 export default {
   masterChef: {
-    97: '0x1d32c2945C8FDCBc7156c553B7cEa4325a17f4f9',
+    97: '0xCeB88Ae94E4920A3FD6eB6bb7F0F8a8e00704804',
     56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
   },
   sousChef: {
-    97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
-    56: '0x6ab8463a4185b80905e05a9ff80a2d6b714b9e95',
+    97: '',
+    56: '',
   },
   lotteryV2: {
     97: '0x5790c3534F30437641541a0FA04C992799602998',
     56: '0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c',
   },
   multiCall: {
-    56: '0xfF6FD90A470Aaa0c1B8A54681746b07AcdFedc9B',
+    56: '',
     97: '0x476dceF5698440beb28A175871fBD3143a3d45FD',
   },
   pancakeProfile: {
