@@ -1636,6 +1636,24 @@ export const mainnetTokens = {
     'NAOSToken',
     'https://naos.finance/',
   ),
+  gol: new Token(
+    MAINNET,
+    '0xBC16DF9309D7997bD5EeD62169BFd4d34666F196',
+    18,
+    'GOL',
+    'GOLSwap Token',
+    'https://gol.finance/',
+  
+  ),
+  golv2: new Token(
+    MAINNET,
+    '0xF4073d05dBE7de995E7b4762C1645519b0f5D609',
+    18,
+    'GOL',
+    'GOLSwap Token',
+    'https://gol.finance/',
+  
+  ),
 }
 
 export const testnetTokens = {
@@ -1659,6 +1677,15 @@ export const testnetTokens = {
   gol: new Token(
     TESTNET,
     '0xBC16DF9309D7997bD5EeD62169BFd4d34666F196',
+    18,
+    'GOL',
+    'GOLSwap Token',
+    'https://gol.finance/',
+  
+  ),
+  golv2: new Token(
+    TESTNET,
+    '0xF4073d05dBE7de995E7b4762C1645519b0f5D609',
     18,
     'GOL',
     'GOLSwap Token',

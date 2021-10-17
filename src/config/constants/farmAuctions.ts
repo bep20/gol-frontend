@@ -9,6 +9,22 @@ const getLpAddress = (tokenAddress: string, quoteToken: Token) => {
 
 export const whitelistedBidders: FarmAuctionBidderConfig[] = [
   {
+    account: '0x445da526B05FC90558ed1869AA22a6FFd49ce44e',
+    farmName: 'GOL-BNB',
+    tokenAddress: '0xBC16DF9309D7997bD5EeD62169BFd4d34666F196',
+    quoteToken: tokens.wbnb,
+    tokenName: 'Gol',
+    projectSite: 'https://gol.finance',
+  },
+  {
+    account: '0x445da526B05FC90558ed1869AA22a6FFd49ce44e',
+    farmName: 'GOLv2-BNB',
+    tokenAddress: '0xF4073d05dBE7de995E7b4762C1645519b0f5D609',
+    quoteToken: tokens.wbnb,
+    tokenName: 'Golv2',
+    projectSite: 'https://gol.finance',
+  },
+  {
     account: '0x9Ed5a62535A5Dd2dB2d9bB21bAc42035Af47F630',
     farmName: 'NAV-BNB',
     tokenAddress: '0xBFEf6cCFC830D3BaCA4F6766a0d4AaA242Ca9F3D',

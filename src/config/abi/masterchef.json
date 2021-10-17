@@ -2,13 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract CakeToken",
-        "name": "_cake",
-        "type": "address"
-      },
-      {
-        "internalType": "contract SyrupBar",
-        "name": "_syrup",
+        "internalType": "contract GolToken",
+        "name": "_gol",
         "type": "address"
       },
       {
@@ -18,7 +13,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_cakePerBlock",
+        "name": "_golPerBlock",
         "type": "uint256"
       },
       {
@@ -162,10 +157,10 @@
   },
   {
     "inputs": [],
-    "name": "cake",
+    "name": "gol",
     "outputs": [
       {
-        "internalType": "contract CakeToken",
+        "internalType": "contract GolToken",
         "name": "",
         "type": "address"
       }
@@ -175,7 +170,7 @@
   },
   {
     "inputs": [],
-    "name": "cakePerBlock",
+    "name": "golPerBlock",
     "outputs": [
       {
         "internalType": "uint256",
@@ -352,7 +347,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingCake",
+    "name": "pendingGol",
     "outputs": [
       {
         "internalType": "uint256",
@@ -390,7 +385,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accCakePerShare",
+        "name": "accGolPerShare",
         "type": "uint256"
       }
     ],
