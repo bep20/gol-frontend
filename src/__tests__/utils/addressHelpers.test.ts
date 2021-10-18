@@ -2,8 +2,8 @@ import { getAddress } from 'utils/addressHelpers'
 
 describe('getAddress', () => {
   const address = {
-    56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
-    97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+    56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82', // CakeToken
+    97: '0xf4073d05dbe7de995e7b4762c1645519b0f5d609', // Contract MockCake??
   }
 
   it(`get address for mainnet (chainId 56)`, () => {

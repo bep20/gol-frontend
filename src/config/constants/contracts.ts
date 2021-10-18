@@ -48,8 +48,8 @@ export default {
     97: '0x24ec6962dbe874F6B67B5C50857565667fA0854F',
   },
   cakeVault: {
-    56: '0xa80240Eb5d7E05d3F250cF000eEc0891d00b51CC',
-    97: '',
+    56: '0xa80240Eb5d7E05d3F250cF000eEc0891d00b51CC', // pool del stake auto./manual.
+    97: '0x445da526B05FC90558ed1869AA22a6FFd49ce44e', // my adress dev. only for test
   },
   predictions: {
     56: '0x18B2A687610328590Bc8F2e5fEdDe3b582A49cdA',
