@@ -59,6 +59,22 @@
       "logoURI": "https://pancakeswap.finance/images/tokens/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.png"
     },
     {
+      "name": "GolV2 Token",
+      "symbol": "GOLv2",
+      "address": "0xF4073d05dBE7de995E7b4762C1645519b0f5D609",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.png"
+    },
+    {
+      "name": "Gol Token",
+      "symbol": "GOL",
+      "address": "0xBC16DF9309D7997bD5EeD62169BFd4d34666F196",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.png"
+    },
+    {
       "name": "Venus",
       "symbol": "XVS",
       "address": "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
