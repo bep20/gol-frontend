@@ -13,7 +13,7 @@ const priceHelperLps: SerializedFarmConfig[] = [
     pid: null,
     lpSymbol: 'QSD-BNB LP',
     lpAddresses: {
-      97: '',
+      97: '0x8cf13ce42d3a79f4a3655bac3e807fb8615f781a', // Quantum Set Dollar
       56: '0x7b3ae32eE8C532016f3E31C8941D937c59e055B9',
     },
     token: tokens.qsd,

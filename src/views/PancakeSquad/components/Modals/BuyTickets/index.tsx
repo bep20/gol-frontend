@@ -97,13 +97,13 @@ const BuyTicketsModal: React.FC<BuyTicketsModalProps> = ({
               <Text font-size="14px" color="textSubtle">
                 {t('Cost per Ticket')}
               </Text>
-              <Text font-size="14px">{formatBigNumber(pricePerTicket, 0)} CAKE</Text>
+              <Text font-size="14px">{formatBigNumber(pricePerTicket, 0)} GOL</Text>
             </Flex>
             <Flex mb="8px" justifyContent="space-between">
               <Text font-size="14px" color="textSubtle">
-                {t('Your CAKE Balance')}
+                {t('Your GOL Balance')}
               </Text>
-              <Text font-size="14px">{formatBigNumber(cakeBalance, 3)} CAKE</Text>
+              <Text font-size="14px">{formatBigNumber(cakeBalance, 3)} GOL</Text>
             </Flex>
             <Flex
               mb="8px"
@@ -123,7 +123,7 @@ const BuyTicketsModal: React.FC<BuyTicketsModalProps> = ({
                 {t('Total Cost')}
               </Text>
               <Text font-size="14px" bold>
-                {formatBigNumber(totalCost, 0)} CAKE
+                {formatBigNumber(totalCost, 0)} GOL
               </Text>
             </Flex>
           </Box>
