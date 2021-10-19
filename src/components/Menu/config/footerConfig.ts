@@ -18,7 +18,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
         href: 'https://docs.pancakeswap.finance/contact-us/telegram',
       },
       {
-        label: t('CAKE token'),
+        label: t('GOL token'),
         href: 'https://docs.pancakeswap.finance/tokenomics/cake',
       },
       {
@@ -53,11 +53,11 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/pancakeswap',
+        href: 'https://github.com/GolFinance',
       },
       {
         label: t('Documentation'),
-        href: 'https://docs.pancakeswap.finance',
+        href: 'https://docs.gol.finance',
       },
       {
         label: t('Bug Bounty'),
