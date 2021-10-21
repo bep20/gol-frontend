@@ -91,21 +91,21 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
       {
         type: DropdownMenuItemType.DIVIDER,
       },
-      {
-        label: t('Leaderboard'),
-        href: '/teams',
-      },
+      // {
+      //   label: t('Leaderboard'),
+      //   href: '/teams',
+      // },
       {
         type: DropdownMenuItemType.DIVIDER,
       },
       {
         label: t('Blog'),
-        href: 'https://pancakeswap.medium.com',
+        href: 'https://medium.com/@gol.finance',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
       {
         label: t('Docs'),
-        href: 'https://docs.pancakeswap.finance',
+        href: 'https://golfinance.gitbook.io/',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
     ],
