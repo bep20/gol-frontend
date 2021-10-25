@@ -100,7 +100,7 @@ const PancakeSquadBanner = () => {
           </Link>
         </LeftWrapper>
         <RightWrapper>
-          <img src="/images/decorations/pancakesquad.png" alt={t('Pancake Squad')} />
+          <img src="/images/decorations/pancakesquad.png" alt={t('Gol Squad')} />
         </RightWrapper>
       </Inner>
     </Wrapper>

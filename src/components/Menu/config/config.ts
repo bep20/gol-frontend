@@ -88,9 +88,9 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
       //   label: t('Voting'),
       //   href: '/voting',
       // },
-      {
-        type: DropdownMenuItemType.DIVIDER,
-      },
+      // {
+      //   type: DropdownMenuItemType.DIVIDER,
+      // },
       // {
       //   label: t('Leaderboard'),
       //   href: '/teams',
