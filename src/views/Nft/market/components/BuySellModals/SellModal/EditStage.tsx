@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Grid, Text, Button, Link, LinkExternal, BinanceIcon } from '@pancakeswap/uikit'
+import { Flex, Grid, Text, Button, Link, LinkExternal, BinanceIcon } from 'gol-uikit'
 import { useTranslation } from 'contexts/Localization'
 import { BASE_URL } from 'config'
 import { nftsBaseUrl, pancakeBunniesAddress } from 'views/Nft/market/constants'

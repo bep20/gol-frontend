@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import capitalize from 'lodash/capitalize'
-import { Box, Button, ChevronDownIcon, ChevronUpIcon, Flex } from '@pancakeswap/uikit'
+import { Box, Button, ChevronDownIcon, ChevronUpIcon, Flex } from 'gol-uikit'
 import { useTranslation } from 'contexts/Localization'
 import { NftAttribute } from 'state/nftMarket/types'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, ChevronRightIcon, Flex, Grid, Heading, Text } from '@pancakeswap/uikit'
+import { Button, ChevronRightIcon, Flex, Grid, Heading, Text } from 'gol-uikit'
 import { Link } from 'react-router-dom'
 import { useGetCollections } from 'state/nftMarket/hooks'
 import { nftsBaseUrl, TMP_SEE_ALL_LINK } from 'views/Nft/market/constants'

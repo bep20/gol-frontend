@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Heading, Card, CardHeader, CardBody, Box, BoxProps } from '@pancakeswap/uikit'
+import { Text, Heading, Card, CardHeader, CardBody, Box, BoxProps } from 'gol-uikit'
 import { useTranslation } from 'contexts/Localization'
 import FoldableText from './FoldableText'
 

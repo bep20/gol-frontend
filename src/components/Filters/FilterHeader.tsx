@@ -1,4 +1,4 @@
-import { Box, Flex, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, Flex, Text, useMatchBreakpoints } from 'gol-uikit'
 import React from 'react'
 import styled from 'styled-components'
 

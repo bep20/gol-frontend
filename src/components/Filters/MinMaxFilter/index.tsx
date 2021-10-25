@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Box, BoxProps, Button, Grid, InlineMenu, TextField } from '@pancakeswap/uikit'
+import { Box, BoxProps, Button, Grid, InlineMenu, TextField } from 'gol-uikit'
 import { useTranslation } from 'contexts/Localization'
 import FilterHeader from '../FilterHeader'
 import FilterFooter from '../FilterFooter'

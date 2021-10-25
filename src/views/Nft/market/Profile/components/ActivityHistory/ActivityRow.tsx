@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, Flex, Text, Td, IconButton, Link, OpenNewIcon, useMatchBreakpoints, useModal } from '@pancakeswap/uikit'
+import { Image, Flex, Text, Td, IconButton, Link, OpenNewIcon, useMatchBreakpoints, useModal } from 'gol-uikit'
 import { NftToken } from 'state/nftMarket/types'
 import { Price } from 'golswap-sdk'
 import styled from 'styled-components'

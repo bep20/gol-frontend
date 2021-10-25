@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Box, Button, Flex } from '@pancakeswap/uikit'
+import { Box, Button, Flex } from 'gol-uikit'
 import { useTranslation } from 'contexts/Localization'
 import MoreFromThisCollection from 'views/Nft/market/Collection/IndividualNFTPage/shared/MoreFromThisCollection'
 import { pancakeBunniesAddress, TMP_SEE_ALL_LINK } from 'views/Nft/market/constants'

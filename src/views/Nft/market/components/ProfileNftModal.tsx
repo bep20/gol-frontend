@@ -1,5 +1,5 @@
 import React from 'react'
-import { InjectedModalProps, Modal, Flex, Text, Button, useModal, Link, Grid, LinkExternal } from '@pancakeswap/uikit'
+import { InjectedModalProps, Modal, Flex, Text, Button, useModal, Link, Grid, LinkExternal } from 'gol-uikit'
 import { BASE_URL } from 'config'
 import useTheme from 'hooks/useTheme'
 import styled from 'styled-components'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Checkbox, Flex, Image, Text } from '@pancakeswap/uikit'
+import { Button, Checkbox, Flex, Image, Text } from 'gol-uikit'
 import styled from 'styled-components'
 import noop from 'lodash/noop'
 import { formatNumber } from 'utils/formatBalance'

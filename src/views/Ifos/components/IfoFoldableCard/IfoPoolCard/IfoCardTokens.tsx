@@ -10,7 +10,7 @@ import {
   Button,
   AutoRenewIcon,
   BunnyPlaceholderIcon,
-} from '@pancakeswap/uikit'
+} from 'gol-uikit'
 import { useWeb3React } from '@web3-react/core'
 import { Token } from 'golswap-sdk'
 import { Ifo, PoolIds } from 'config/constants/types'

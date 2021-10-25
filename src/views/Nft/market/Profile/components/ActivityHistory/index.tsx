@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { uniqBy } from 'lodash'
-import { Flex, Text, Card, ArrowBackIcon, ArrowForwardIcon, Table, Th, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Flex, Text, Card, ArrowBackIcon, ArrowForwardIcon, Table, Th, useMatchBreakpoints } from 'gol-uikit'
 import { getNftsFromDifferentCollectionsApi } from 'state/nftMarket/helpers'
 import { NftToken, TokenIdWithCollectionAddress, UserNftInitializationState } from 'state/nftMarket/types'
 import { useTranslation } from 'contexts/Localization'

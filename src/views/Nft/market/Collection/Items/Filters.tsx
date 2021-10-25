@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, BoxProps } from '@pancakeswap/uikit'
+import { Box, BoxProps } from 'gol-uikit'
 import uniqBy from 'lodash/uniqBy'
 import { Collection, NftAttribute } from 'state/nftMarket/types'
 import { useTranslation } from 'contexts/Localization'

@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
-import { ArrowBackIcon, ArrowForwardIcon, AutoRenewIcon, Flex, Grid, Text } from '@pancakeswap/uikit'
+import { ArrowBackIcon, ArrowForwardIcon, AutoRenewIcon, Flex, Grid, Text } from 'gol-uikit'
 import { getAddress } from '@ethersproject/address'
 import { useAppDispatch } from 'state'
 import { useNftsFromCollection } from 'state/nftMarket/hooks'

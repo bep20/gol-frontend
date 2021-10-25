@@ -1,5 +1,5 @@
 import React from 'react'
-import { Table, Th, Td, Card, ProfileAvatar, Flex, BnbUsdtPairTokenIcon, Heading } from '@pancakeswap/uikit'
+import { Table, Th, Td, Card, ProfileAvatar, Flex, BnbUsdtPairTokenIcon, Heading } from 'gol-uikit'
 import { Link } from 'react-router-dom'
 import { useGetCollections } from 'state/nftMarket/hooks'
 import { useTranslation } from 'contexts/Localization'

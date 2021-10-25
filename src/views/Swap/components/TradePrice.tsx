@@ -1,6 +1,6 @@
 import React from 'react'
 import { Price } from 'golswap-sdk'
-import { Text, AutoRenewIcon } from '@pancakeswap/uikit'
+import { Text, AutoRenewIcon } from 'gol-uikit'
 import { StyledBalanceMaxMini } from './styleds'
 
 interface TradePriceProps {
