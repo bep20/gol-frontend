@@ -36,7 +36,7 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         eventStatus: [SaleStatusEnum.Pending, SaleStatusEnum.Premint],
       }),
       title: t('Activate your profile'),
-      bodyText: [t('You’ll need an active PancakeSwap Profile to buy Minting Tickets and mint a Pancake Squad NFT!')],
+      bodyText: [t('You’ll need an active GolSwap Profile to buy Minting Tickets and mint a Gol Squad NFT!')],
       buttons: (
         <>
           <ActivateProfileButton userStatus={userStatus} t={t} />
@@ -57,7 +57,7 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         <>
           <Button
             as="a"
-            href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+            href="https://gol.finance/swap?outputCurrency=0x52f6a03a53840c01470f33a0b016e4c3e3dfe796"
             target="_blank"
             width="100%"
           >
