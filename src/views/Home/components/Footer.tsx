@@ -67,17 +67,17 @@ const topLeftImage = {
   path: '/images/home/flying-pancakes/',
   attributes: [
     { src: '1-bottom', alt: 'Gol flying on the bottom' },
-    { src: '1-left', alt: 'Gol flying on the left' },
-    { src: '1-top', alt: 'Gol flying on the top' },
+    // { src: '1-left', alt: 'Gol flying on the left' },
+    // { src: '1-top', alt: 'Gol flying on the top' },
   ],
 }
 
 const bottomRightImage = {
   path: '/images/home/flying-pancakes/',
   attributes: [
-    { src: '2-bottom', alt: 'Gol flying on the bottom' },
-    { src: '2-top', alt: 'Gol flying on the top' },
-    { src: '2-right', alt: 'Gol flying on the right' },
+    { src: '1-bottom', alt: 'Gol flying on the bottom' },
+    // { src: '1-top', alt: 'Gol flying on the top' },
+    // { src: '2-right', alt: 'Gol flying on the right' },
   ],
 }
 
@@ -102,7 +102,7 @@ const Footer = () => {
       </FloatingPancakesWrapper>
       <Wrapper>
         <Heading mb="24px" scale="xl" color="white">
-          {t('Start in seconds.')}
+          {t('Welcome to GOL Finance')}
         </Heading>
         <Text textAlign="center" color="white">
           {t('Connect your crypto wallet to start using the app in seconds.')}
