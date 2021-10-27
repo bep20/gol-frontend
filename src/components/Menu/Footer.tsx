@@ -39,12 +39,12 @@ const Footer = () => {
   return (
     <Wrapper>
       <Flex flexDirection={['column', 'column', 'row']} alignItems="center">
-        <ButtonMenu variant="subtle" scale="sm" activeIndex={0}>
+        {/* <ButtonMenu variant="subtle" scale="sm" activeIndex={0}>
           <ButtonMenuItem>V2</ButtonMenuItem>
           <ButtonMenuItem as="a" href="https://v1exchange.golswap.finance/#/">
             {t('V1 (old)')}
           </ButtonMenuItem>
-        </ButtonMenu>
+        </ButtonMenu> */}
         <LinkExternal
           id="ercBridge"
           href="https://www.binance.org/en/bridge?utm_source=GolSwap"
@@ -75,7 +75,7 @@ const Footer = () => {
             <path d="M0 16V0C0 0 3 1 6 1C9 1 16 -2 16 3.5C16 10.5 7.5 16 0 16Z" />
           </Svg>
         </BubbleWrapper>
-        <Image src="/images/help.svg" alt="Get some help" width={160} height={108} />
+        <Image src="/images/help.png" alt="Get some help" width={160} height={108} />
       </Flex>
     </Wrapper>
   )
