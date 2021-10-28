@@ -101,17 +101,17 @@ const Footer = () => {
         </BottomRightImgWrapper>
       </FloatingPancakesWrapper>
       <Wrapper>
-        <Heading mb="24px" scale="xl" color="white">
+        <Heading mb="24px" scale="xl" color="#36319b">
           {t('Welcome to GOL Finance')}
         </Heading>
-        <Text textAlign="center" color="white">
+        <Text textAlign="center" color="#36319b">
           {t('Connect your crypto wallet to start using the app in seconds.')}
         </Text>
-        <Text mb="24px" bold color="white">
+        <Text mb="24px" bold color="#36319b">
           {t('No registration needed.')}
         </Text>
 
-        <Link external href="https://golfinance.gitbook.io/">
+        <Link external href="https://golfinance.gitbook.io/" color="#36319b">
           {t('Learn how to start')}
         </Link>
         {!account && <ConnectWalletButton mt="24px" />}
