@@ -55,8 +55,8 @@ const Home: React.FC = () => {
         innerProps={{ style: { margin: '0', width: '100%' } }}
         background={
           theme.isDark
-            ? 'radial-gradient(103.12% 50% at 50% 50%, #ffb900 0%, #737373 100%)'
-            : 'linear-gradient(139.73deg, #737373 0%, #F3EFFF 100%)'
+            ? 'radial-gradient(180% 50% at 50% 50%, #f1eeee 0%, #f7941d 100%)'
+            : 'linear-gradient(180deg, #f7941d 0%, #F3EFFF 100%)' 
         }
         index={2}
         hasCurvedDivider={false}
@@ -79,8 +79,8 @@ const Home: React.FC = () => {
         innerProps={{ style: { margin: '0', width: '100%' } }}
         background={
           theme.isDark
-            ? 'linear-gradient(180deg, #09070C 22%, #36319b 100%)'
-            : 'linear-gradient(180deg, #FFFFFF 22%, #b0b0b0 100%)'
+            ? 'linear-gradient(180deg, #27262C 22%, #36319b 100%)'
+            : 'linear-gradient(180deg, #b0b0b0 22%, ##f4ae01 100%)'
         }
         index={2}
         hasCurvedDivider={false}
@@ -137,7 +137,7 @@ const Home: React.FC = () => {
       </PageSection>
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
-        background="linear-gradient(180deg, #f1eeee 0%, #6f6767 100%)"
+        background="linear-gradient(180deg, #f1eeee 0%, #f4ae01 100%)"
         index={2}
         hasCurvedDivider={false}
       >
