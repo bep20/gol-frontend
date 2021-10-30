@@ -1,7 +1,7 @@
 import { ChainId, JSBI, Percent, Token } from 'golswap-sdk'
 import { mainnetTokens, testnetTokens } from './tokens'
 
-export const ROUTER_ADDRESS = '0x1E669BfEE71eBA6302a53793B3865Ad42a75442C'
+export const ROUTER_ADDRESS = '0x10C22079c1D0388056e54Be5bf6751D9320F54D1'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -12,6 +12,7 @@ type ChainTokenList = {
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   [ChainId.MAINNET]: [
     mainnetTokens.wbnb,
+    mainnetTokens.gol,
     mainnetTokens.cake,
     mainnetTokens.busd,
     mainnetTokens.usdt,
@@ -48,7 +49,7 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
-  [ChainId.MAINNET]: [mainnetTokens.busd, mainnetTokens.cake, mainnetTokens.btcb],
+  [ChainId.MAINNET]: [mainnetTokens.busd, mainnetTokens.gol, mainnetTokens.btcb],
   [ChainId.TESTNET]: [testnetTokens.wbnb, testnetTokens.cake,  testnetTokens.golv2,  testnetTokens.gol, testnetTokens.busd],
 }
 

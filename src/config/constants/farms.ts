@@ -9,22 +9,22 @@ const farms: SerializedFarmConfig[] = [
    */
   {
     pid: 0,
-    lpSymbol: 'GOLv2',
+    lpSymbol: 'GOL',
     lpAddresses: {
       97: '0xF4073d05dBE7de995E7b4762C1645519b0f5D609',
-      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+      56: '0x52f6A03a53840C01470f33A0b016E4C3E3DFe796',
     },
-    token: serializedTokens.golv2,
+    token: serializedTokens.gol,
     quoteToken: serializedTokens.wbnb,
   },
   {
     pid: 1,
-    lpSymbol: 'GOLv2-BNB LP',
+    lpSymbol: 'GOL-BNB LP',
     lpAddresses: {
       97: '0x45da5986a67cA0F380dde1f940d7A977C2Fcde01',
-      56: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
+      56: '',
     },
-    token: serializedTokens.golv2,
+    token: serializedTokens.gol,
     quoteToken: serializedTokens.wbnb,
   },
   // {

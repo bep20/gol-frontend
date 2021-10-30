@@ -6,15 +6,15 @@ const serializedTokens = serializeTokens()
 const pools: SerializedPoolConfig[] = [
   {
     sousId: 0,
-    stakingToken: serializedTokens.golv2,
-    earningToken: serializedTokens.golv2,
+    stakingToken: serializedTokens.gol,
+    earningToken: serializedTokens.gol,
     contractAddress: {
       97: '0xCeB88Ae94E4920A3FD6eB6bb7F0F8a8e00704804',// address mastergol
-      56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
+      56: '0x2F1281A9f84CF6f551dB39156D32A5D6153F25a5',
     },
     poolCategory: PoolCategory.CORE,
     harvest: true,
-    tokenPerBlock: '10',
+    tokenPerBlock: '0.5798252488',
     sortOrder: 1,
     isFinished: false,
   },

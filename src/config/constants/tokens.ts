@@ -1638,16 +1638,7 @@ export const mainnetTokens = {
   ),
   gol: new Token(
     MAINNET,
-    '0xBC16DF9309D7997bD5EeD62169BFd4d34666F196',
-    18,
-    'GOL',
-    'GOLSwap Token',
-    'https://gol.finance/',
-  
-  ),
-  golv2: new Token(
-    MAINNET,
-    '0xF4073d05dBE7de995E7b4762C1645519b0f5D609',
+    '0x52f6a03a53840c01470f33a0b016e4c3e3dfe796',
     18,
     'GOL',
     'GOLSwap Token',
