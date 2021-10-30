@@ -22,7 +22,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'GOL-BNB LP',
     lpAddresses: {
       97: '0x45da5986a67cA0F380dde1f940d7A977C2Fcde01',
-      56: '',
+      56: '0x52f6A03a53840C01470f33A0b016E4C3E3DFe796', // colocar el address del lp GOL-BNB
     },
     token: serializedTokens.gol,
     quoteToken: serializedTokens.wbnb,
