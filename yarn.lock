@@ -7704,9 +7704,9 @@ caniuse-lite@^1.0.30001219:
   integrity sha512-BBruZFWmt3HFdVPS8kceTBIguKxu4f99n5JNp06OlPD/luoAMIaIK5ieV5YjnBLH3Nysai9sxj9rpJj4ZisXOA==
 
 caniuse-lite@^1.0.30001271:
-  version "1.0.30001272"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001272.tgz#8e9790ff995e9eb6e1f4c45cd07ddaa87cddbb14"
-  integrity sha512-DV1j9Oot5dydyH1v28g25KoVm7l8MTxazwuiH3utWiAS6iL/9Nh//TGwqFEeqqN8nnWYQ8HHhUq+o4QPt9kvYw==
+  version "1.0.30001274"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001274.tgz#26ca36204d15b17601ba6fc35dbdad950a647cc7"
+  integrity sha512-+Nkvv0fHyhISkiMIjnyjmf5YJcQ1IQHZN6U9TLUMroWR38FNwpsC51Gb68yueafX1V6ifOisInSgP9WJFS13ew==
 
 canvas-confetti@^1.3.3:
   version "1.4.0"
@@ -11738,9 +11738,9 @@ follow-redirects@^1.0.0:
   integrity sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==
 
 follow-redirects@^1.10.0:
-  version "1.14.4"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.4.tgz#838fdf48a8bbdd79e52ee51fb1c94e3ed98b9379"
-  integrity sha512-zwGkiSXC1MUJG/qmeIFH2HBJx9u0V46QGUe3YR1fXG8bXQxq7fLj0RjLZQ5nubr9qNJUZrH+xUcwXEoXNpfS+g==
+  version "1.14.5"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.5.tgz#f09a5848981d3c772b5392309778523f8d85c381"
+  integrity sha512-wtphSXy7d4/OR+MvIFbCVBDzZ5520qV8XfPklSN5QtxuMUJZ+b0Wnst1e1lCDocfzuCkHqj8k0FpZqO+UIaKNA==
 
 follow-redirects@^1.14.0:
   version "1.14.3"
@@ -12383,9 +12383,9 @@ globby@^6.1.0:
     pinkie-promise "^2.0.0"
 
 gol-uikit@^0.1.0:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/gol-uikit/-/gol-uikit-0.1.10.tgz#36c05c1954f42981cca7e6d420b522a9b66cde20"
-  integrity sha512-UgI2oFDgMS9ShIOUl4eh9LEsQJKcOfIfNwxrFWJNRVsfDrbqSEyos+JiAOzL0Ogc0wCliwTelCdIGAd+X9PYyg==
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/gol-uikit/-/gol-uikit-0.1.11.tgz#92784d456d863ef9f1bc1d6b53384b0cca03ee3a"
+  integrity sha512-hDlwyIBsXOmRXSAl3kQtRbE/JF/lIuU5VURqBC0wtSbtB3CZwXSt+TgmWSZwbNX7jauBcwMrnpt235ZdpwpSUQ==
   dependencies:
     "@popperjs/core" "^2.9.2"
     "@types/lodash" "^4.14.168"
@@ -12395,9 +12395,9 @@ gol-uikit@^0.1.0:
     styled-system "^5.1.5"
 
 golswap-sdk@^0.1.0:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/golswap-sdk/-/golswap-sdk-0.1.2.tgz#5772eba7de4dae7e1397136158dcd8799a1996c2"
-  integrity sha512-ANGdaJZ2VtyQomvDAqrsSO689pvHrA+ZGygyZkg4x9NJcW6lzLpi2zU+foa+koMBpo8JcJ3Xos3xINPBhzAS4Q==
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/golswap-sdk/-/golswap-sdk-0.1.3.tgz#112486259b8a4d0c0c89faf7b606b2b0d103e8be"
+  integrity sha512-PiJen0pHfQ049vKgSYjKpMB/B0enqy9nMZQG+vA2F4XF2i7+Q1pKdqpqd5bApdo4+JcKr4kAtC+8jaKJUjYK8A==
   dependencies:
     "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
     big.js "^5.2.2"

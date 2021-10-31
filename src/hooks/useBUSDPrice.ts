@@ -75,6 +75,6 @@ export const useCakeBusdPrice = (): Price | undefined => {
 }
 
 export const useBNBBusdPrice = (): Price | undefined => {
-  const bnbBusdPrice = useBUSDPrice(tokens.wbnb)
+  const bnbBusdPrice = useBUSDPrice(tokens.wbnb) // precio
   return bnbBusdPrice
 }

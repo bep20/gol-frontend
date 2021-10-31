@@ -84,7 +84,7 @@ export const usePollCoreFarmData = () => {
   const { fastRefresh } = useRefresh()
 
   useEffect(() => {
-    dispatch(fetchFarmsPublicDataAsync([0, 3]))
+    dispatch(fetchFarmsPublicDataAsync([1]))
   }, [dispatch, fastRefresh])
 }
 
@@ -140,20 +140,20 @@ export const useLpTokenPrice = (symbol: string) => {
     const totalLpTokens = getBalanceAmount(farm.lpTotalSupply)
     lpTokenPrice = overallValueOfAllTokensInFarm.div(totalLpTokens)
   }
-
+  // console.log(lpTokenPrice)
   return lpTokenPrice
 }
 
 // /!\ Deprecated , use the BUSD hook in /hooks
 
 export const usePriceCakeBusd = (): BigNumber => {
-  const cakeBnbFarm = useFarmFromPid(1) // precio en la barra
+  const cakeBnbFarm = useFarmFromPid(2) // precio en la barra GOL-BUSD LP
 
   const cakePriceBusdAsString = cakeBnbFarm.tokenPriceBusd
 
   const cakePriceBusd = useMemo(() => {
     return new BigNumber(cakePriceBusdAsString)
   }, [cakePriceBusdAsString])
-
+  console.log("desde state/farms/hooks.ts 1 %o", cakePriceBusdAsString) // Maradona
   return cakePriceBusd // new BigNumber(25) price of Gol
 }
