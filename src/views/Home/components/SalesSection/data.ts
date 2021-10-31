@@ -10,7 +10,7 @@ export const swapSectionData: SalesSectionProps = {
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.pancakeswap.finance/',
+    to: 'https://docs.gol.finance/',
     text: 'Learn',
     external: true,
   },
@@ -54,7 +54,7 @@ export const cakeSectionData: SalesSectionProps = {
     'GOL token is at the heart of the GolSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
   reverse: false,
   primaryButton: {
-    to: '/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+    to: '/swap?outputCurrency=0x52f6a03a53840c01470f33a0b016e4c3e3dfe796',
     text: 'Buy GOL',
     external: false,
   },

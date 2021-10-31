@@ -70,7 +70,7 @@ export default function useBUSDPrice(currency?: Currency): Price | undefined {
 }
 
 export const useCakeBusdPrice = (): Price | undefined => {
-  const cakeBusdPrice = useBUSDPrice(tokens.cake) // cambiar acá por gol en mainnet
+  const cakeBusdPrice = useBUSDPrice(tokens.gol)
   return cakeBusdPrice
 }
 
