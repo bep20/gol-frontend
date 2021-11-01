@@ -113,7 +113,7 @@ export default function RemoveLiquidity({
       { name: 'verifyingContract', type: 'address' },
     ]
     const domain = {
-      name: 'Pancake LPs',
+      name: 'Gol LPs', // Maradona
       version: '1',
       chainId,
       verifyingContract: pair.liquidityToken.address,
@@ -245,6 +245,7 @@ export default function RemoveLiquidity({
           signatureData.r,
           signatureData.s,
         ]
+        console.log("remove liq A %o", args) // Maradona.
       }
       // removeLiquidityETHWithPermit
       else {
@@ -262,6 +263,7 @@ export default function RemoveLiquidity({
           signatureData.r,
           signatureData.s,
         ]
+        console.log("remove liq B %o", args) // Maradona.
       }
     } else {
       throw new Error('Attempting to confirm without approval or a signature. Please contact support.')
