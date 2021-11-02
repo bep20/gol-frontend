@@ -74,9 +74,7 @@ export const usePollFarmsWithUserData = (includeArchive = false) => {
 
 /**
  * Fetches the "core" farm data used globally
- * 251 = CAKE-BNB LP
- * 252 = BUSD-BNB LP
- * 0 = GOL-BNB LP
+ * 2 = CAKE-BUSD LP
  * 3 = BUSD-BNB LP
  */
 export const usePollCoreFarmData = () => {
@@ -84,7 +82,7 @@ export const usePollCoreFarmData = () => {
   const { fastRefresh } = useRefresh()
 
   useEffect(() => {
-    dispatch(fetchFarmsPublicDataAsync([1]))
+    dispatch(fetchFarmsPublicDataAsync([2,3]))
   }, [dispatch, fastRefresh])
 }
 
@@ -154,6 +152,6 @@ export const usePriceCakeBusd = (): BigNumber => {
   const cakePriceBusd = useMemo(() => {
     return new BigNumber(cakePriceBusdAsString)
   }, [cakePriceBusdAsString])
-  console.log("desde state/farms/hooks.ts 1 %o", cakePriceBusdAsString) // Maradona
+  // console.log("desde state/farms/hooks.ts 1 %o", cakePriceBusdAsString) // Maradona
   return cakePriceBusd // new BigNumber(25) price of Gol
 }

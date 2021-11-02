@@ -27,7 +27,7 @@ export const PageMeta: React.FC<{ symbol?: string }> = ({ symbol }) => {
   const { t } = useTranslation()
   const { pathname } = useLocation()
   const cakePriceUsd = useCakeBusdPrice()
-  const cakePriceUsdDisplay = cakePriceUsd ? `$${cakePriceUsd.toFixed(3)}` : '...'
+  const cakePriceUsdDisplay = cakePriceUsd ? `$${cakePriceUsd.toFixed(2)}` : '$GOL' // precio w/2decimals on tab explorer
 
   const pageMeta = getCustomMeta(pathname, t) || {}
   const { title, description, image } = { ...DEFAULT_META, ...pageMeta }
