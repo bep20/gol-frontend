@@ -12383,9 +12383,9 @@ globby@^6.1.0:
     pinkie-promise "^2.0.0"
 
 gol-uikit@^0.1.0:
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/gol-uikit/-/gol-uikit-0.1.13.tgz#751594fea8a82e32015b73f10cc086fce82fcca7"
-  integrity sha512-/4W6puZ8kygDoBpbd6UEQxqUF9n907+r55pzA44C95sidtBbaJuHQfGgxOsxv6Ci9F1ghDv93QQxjGKpu2/W1A==
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/gol-uikit/-/gol-uikit-0.1.15.tgz#9ae2539e2453948b5449b43b940db2219c74f1e7"
+  integrity sha512-k3ynAYXopB7zzhO8fBnPRmA1gc8iFh+HUbOPeBcmW+2D/rgakuB/KfEbcre3qdDtepY+CaFqBxdWctC9WBI9hg==
   dependencies:
     "@popperjs/core" "^2.9.2"
     "@types/lodash" "^4.14.168"
